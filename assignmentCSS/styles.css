@@ -90,8 +90,8 @@ header {
     max-height: 680px;
     align-items: center;
     text-align: center;
-    justify-content: space-around;
-    gap: 100px;
+    justify-content: center;
+    gap: 350px;
     background-image: url('../images/Group 14.png');
     background-repeat: no-repeat;
     background-color: rgba(221, 38, 221, 0.26);
@@ -133,9 +133,103 @@ header {
     margin-bottom: 15px;
 }
 
-#btn-blue{
+#btn-blue {
     background: #4EC5F7;
 }
 
 
-/* */
+/* we gamer section*/
+
+.we-gamer-container {
+    display: flex;
+    width: 100%;
+    max-height: 600px;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    margin: 50px auto;
+}
+
+.we-gamer-text {
+    text-align: right;
+
+}
+
+.we-gamer-title {
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 24px;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.we-gamer-des {
+    color: #534C64;
+    width: 520px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    /* 166.667% */
+}
+
+.we-gamer-pic {
+    width: 868px;
+    height: 489px;
+}
+
+.we-gamer-motto {
+    width: 520px;
+    color: #534C64;
+    font-size: 24px;
+    font-weight: 500;
+    margin-top: 24px;
+}
+
+/* video section */
+
+.video-container {
+    width: 100%;
+    margin-top: 150px;
+    text-align: center;
+}
+
+.video-title {
+    color: #0B0223;
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 24px;
+}
+
+.funny-video-text {
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.video-des{
+    color: #534C64;
+text-align: center;
+font-size: 18px;
+font-weight: 400;
+}
+
+.video-pics>div>img:hover{
+    border: 5px solid deeppink;
+border-radius: 18px;
+  background-image: url(../images/play-button2.png);
+  background-repeat: no-repeat;
+
+}
+.video-pics{
+    display: flex;
+    justify-content: center;
+    text-align: left;
+    gap: 24px;
+    margin-top: 40px;
+}
+
+.video-pics-des{
+    width: 342px;
+}
