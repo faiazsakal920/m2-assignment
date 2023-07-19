@@ -218,9 +218,6 @@ font-weight: 400;
 .video-pics>div>img:hover{
     border: 5px solid deeppink;
 border-radius: 18px;
-  background-image: url(../images/play-button2.png);
-  background-repeat: no-repeat;
-
 }
 .video-pics{
     display: flex;
