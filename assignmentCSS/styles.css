@@ -208,18 +208,20 @@ header {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
-.video-des{
+
+.video-des {
     color: #534C64;
-text-align: center;
-font-size: 18px;
-font-weight: 400;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
 }
 
-.video-pics>div>img:hover{
+.video-pics>div>img:hover {
     border: 5px solid deeppink;
-border-radius: 18px;
+    border-radius: 18px;
 }
-.video-pics{
+
+.video-pics {
     display: flex;
     justify-content: center;
     text-align: left;
@@ -227,6 +229,122 @@ border-radius: 18px;
     margin-top: 40px;
 }
 
-.video-pics-des{
+.video-pics-des {
     width: 342px;
+}
+
+
+/* instant container starts */
+
+.instant-container {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    gap: 150px;
+    margin-top: 120px;
+}
+
+.instant-text {
+    text-align: center;
+    align-items: center;
+}
+
+.instant-title {
+    width: 341px;
+    text-align: right;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.instant-des {
+    width: 341px;
+    color: #534C64;
+    text-align: right;
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 24px;
+
+}
+
+#play-instantly {
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.instant-img1 {
+    position: relative;
+    left: 320px;
+
+}
+
+.instant-img2 {
+    position: relative;
+    top: 80px;
+    right: 490px;
+}
+
+/* careers styles */
+
+.career-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 150px;
+    width: 100%;
+    max-height: 821px;
+    background: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
+}
+
+.career-text{
+    padding-left: 190px;
+}
+.career-title {
+    width: 426px;
+    color: #FFF;
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 40px;
+}
+
+.career-des {
+    width: 680px;
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.career-data {
+    display: flex;
+    justify-content: space-between;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.data-1 {
+    margin-top: 40px;
+}
+
+.data-2 {
+    margin-top: 40px
+}
+
+.career-pic{
+    width: 1013px;
+height: 821px;
+}
+
+#btn-white{
+    color: #FF42A5;
+padding: 21px 40px;
+align-items: flex-start;
+gap: 10px;
+border-radius: 48px;
+background: #FFF;
+font-size: 20px;
+font-weight: 600;
+text-transform: uppercase;
 }
