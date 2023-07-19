@@ -386,7 +386,9 @@ header {
     color: #FF42A5;
     border: 3px solid deeppink;
     border-radius: 50px;
-    padding:10px 20px 10px 10px
+    padding:10px 20px 10px 10px;
+    cursor: pointer;
+    
 }
 
 .game-cat-2>div:hover{
@@ -394,4 +396,5 @@ header {
     border: 3px solid deeppink;
     border-radius: 50px;
     padding:10px 20px 10px 10px;
+    cursor: pointer;
 }
